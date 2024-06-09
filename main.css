@@ -52,6 +52,41 @@ body {
     width: 100%;
 }
 
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.burger-menu .nav-link {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.burger-menu .nav-link:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+#close-btn {
+    position: relative;
+    right: -150px;
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+    z-index: 1;
+}
+
+#close-btn:hover {
+    color: #ddd;
+}
+
 .filler{
     flex-grow: 1;
 }
@@ -243,11 +278,23 @@ footer {
     width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
+
+@media screen and (max-width: 768px) {
     .nav {
-        visibility: hidden;
+        display: none;
     }
 
+    #bars {
+        display: block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
     #social-1 {
         padding-left: 15px;
     }

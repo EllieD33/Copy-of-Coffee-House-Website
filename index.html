@@ -1,17 +1,10 @@
-<!-- TODO
-add JavaScript: 
-    burger menu
-    gallery resizing
-    gallery hide/show
-    back to top button -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="/Images/HCH-cup-symbol-dark-CLEAR.png"/>
+    <link rel="icon" type="image/png" href="Images/HCH-cup-symbol-dark-CLEAR.png"/>
     <title>Holme Coffee House in Holmfirth</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,13 +12,14 @@ add JavaScript:
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/fontawesome.min.css">
     <link rel="stylesheet" href="main.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
     <header id="home">
         <div class="topnav">
             <img src="https://holmecoffeehouse.co.uk/wp-content/uploads/2020/08/HCH-logo-dark-CLEAR.png" alt="Holme Coffee House" id="logo">
-            <a href="https://www.instagram.com/holmecoffeehouse/" target="_blank"><img src="/Images/instagram-480-colour303d48.png" alt="Instagram" id="social-1" class="social-grow"></a>
-            <a href="https://www.facebook.com/people/Holme-Coffee-House-Holmfirth/100063759663974/" target="_blank"><img src="/Images/icons8-facebook-circled-192.png" alt="Facebook" id="social-2" class="social-grow"></a>
+            <a href="https://www.instagram.com/holmecoffeehouse/" target="_blank"><img src="Images/instagram-480-colour303d48.png" alt="Instagram" id="social-1" class="social-grow"></a>
+            <a href="https://www.facebook.com/people/Holme-Coffee-House-Holmfirth/100063759663974/" target="_blank"><img src="Images/icons8-facebook-circled-192.png" alt="Facebook" id="social-2" class="social-grow"></a>
             <div class="filler"></div>
             <nav class="nav">
                 <ul class="nobullets">
@@ -35,8 +29,14 @@ add JavaScript:
                     <li class="nav-item"><a class="nav-link" href="/allergy.html">Allergy Info</a></li>
                 </ul>
             </nav>
-            <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()"> -->
             <i class="fa fa-bars" id="bars"></i>
+            <div class="burger-menu" id="burger-menu">
+                <span id="close-btn">&times;</span>
+                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#about">About Us</a>
+                <a class="nav-link" href="/menu.html">Menu</a>
+                <a class="nav-link" href="/allergy.html">Allergy Info</a>
+            </div>
         </div>
     </header>
     <main aria-labelledby="information-section">
@@ -89,8 +89,8 @@ add JavaScript:
                 <p>01484 684942</p>
                 <p>info@holmecoffeehouse.co.uk</p>
                 <div class="location-socials">
-                    <a href="https://www.instagram.com/holmecoffeehouse/" target="_blank"><img src="/Images/instagram-480-colour303d48.png" alt="Instagram" id="social-3" class="social-grow"></a>
-                    <a href="https://www.facebook.com/people/Holme-Coffee-House-Holmfirth/100063759663974/" target="_blank"><img src="/Images/icons8-facebook-circled-192.png" alt="Facebook" id="social-4" class="social-grow"></a>
+                    <a href="https://www.instagram.com/holmecoffeehouse/" target="_blank"><img src="Images/instagram-480-colour303d48.png" alt="Instagram" id="social-3" class="social-grow"></a>
+                    <a href="https://www.facebook.com/people/Holme-Coffee-House-Holmfirth/100063759663974/" target="_blank"><img src="Images/icons8-facebook-circled-192.png" alt="Facebook" id="social-4" class="social-grow"></a>
                 </div>
                 <iframe title="map of Holme Coffee House location" id="location-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2301.814994490869!2d-1.784685189574582!3d53.570918962017025!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bdb56c21cadf7%3A0x6e46fe1789b1195d!2sHolme%20Coffee%20House!5e0!3m2!1sen!2suk!4v1675353307151!5m2!1sen!2suk" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
