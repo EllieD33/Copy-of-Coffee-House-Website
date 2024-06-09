@@ -1,7 +1,7 @@
 # Coffee Shop Website Clone
 
 ## Overview
-This project is a clone of an existing coffee shop website (https://holmecoffeehouse.co.uk/). It replicates the design and functionality using HTML and CSS, providing a visually appealing and user-friendly interface. The project aims to practice front-end development skills.
+This project is a clone of an existing coffee shop website (https://holmecoffeehouse.co.uk/). It replicates the design and functionality using HTML, CSS and JavaScript, providing a visually appealing and user-friendly interface. The project aims to practice front-end development skills.
 
 ## Features
 - **Homepage**: Showcases the coffee shop's ambiance with a hero image and gallery. Displays a welcome message and opening times.
