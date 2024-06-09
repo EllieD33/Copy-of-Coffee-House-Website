@@ -27,9 +27,11 @@ document.addEventListener("DOMContentLoaded", function () {
         if (showMoreIcon.classList.contains("fa-chevron-down")) {
             showMoreIcon.classList.remove("fa-chevron-down");
             showMoreIcon.classList.add("fa-chevron-up");
+            showMoreButton.setAttribute("aria-label", "Show Less");
         } else {
             showMoreIcon.classList.remove("fa-chevron-up");
             showMoreIcon.classList.add("fa-chevron-down");
+            showMoreButton.setAttribute("aria-label", "Show More");
         }
     });
 });
