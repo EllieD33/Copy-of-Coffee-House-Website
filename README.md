@@ -12,6 +12,7 @@ This project is a clone of an existing coffee shop website (https://holmecoffeeh
 ## Technologies Used
 - **HTML5**: For structuring the content and layout.
 - **CSS3**: For styling the website and creating a responsive design.
+- **JavaScript**: For managing burger menu and show/hide gallery button.
 
 Project Link: https://ellied33.github.io/Copy-of-Coffee-House-Website/
 
